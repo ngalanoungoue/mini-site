@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>MON MINI SITE PERSONNEL</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                margin:40px;
+                background-color: brown;
+            }
+            header,footer{
+                background-color: black;
+                color:white;
+                padding: 10px;
+                text-align: center;
+            }
+            nav a{
+                margin: 0 15px;
+                text-decoration: none;
+                color: black;
+            }
+            nav a:hover{
+                color: red;
+            }
+            section{
+                margin: top 40px;
+                padding: 10px;
+                background-color: lightgray; 
+                border-radius:8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            section + section{
+                border-top: 5px solid #8B0000;
+            }
+            img{
+                width:150px;
+                border-radius:50%;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Bienvenue sur mon mini site</h1>
+        </header>
+
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <img src="../mini_projet VBA/IMAGE/raisin.jpg" alt="Photo de profil">
+            <p>Je suis un passionné de développement web, toujours à la recherche de nouveaux défis et d'opportunités pour apprendre.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>MON PORTFOLIO</h2>
+            <ul>
+                <li>Projet1: Page de présentation HTML</li>
+                <li>Projet2: Maquette d 'un blog </li>
+                <li>Projet3: Formulaire de contact </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <form>
+                <label>Nom : </label><br>
+                <input type="text" name="nom"><br><br>
+
+                <label >Email :</label><br>
+                <input type="email" name="email"><br><br>
+
+                <label>Message : </label><br>
+                <textarea type="Message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Mon Mini Site Web</p>
+        </footer>
+
+    </body>
+</html>
