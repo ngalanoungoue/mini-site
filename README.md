@@ -4,7 +4,7 @@ Projet réalisé dans le cadre du cours de Développement Web (HTML/CSS) et d'un
 
 ---
 
-##  Objectif
+## Objectif
 
 - Créer un site web statique représentant une entreprise fictive
 - Utiliser un workflow Git professionnel avec branches : `feature/*`, `test`, `dev`, `main`
